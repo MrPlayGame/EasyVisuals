@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.6-SNAPSHOT'  // Обновленная версия
+	id 'fabric-loom' version '1.5-SNAPSHOT'  // Используйте стабильную версию
 	id 'maven-publish'
 }
 
@@ -8,7 +8,6 @@ group = project.maven_group
 
 repositories {
 	maven { url "https://maven.fabricmc.net/" }
-	maven { url "https://maven.terraformersmc.com/releases/" }
 	mavenCentral()
 }
 

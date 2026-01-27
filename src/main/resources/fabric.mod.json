@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "easyvisuals",
+	"version": "1.0.0",
+	"name": "EasyVisuals",
+	"description": "ну может ыбть хорошие и оптимизированные визуалы",
+	"authors": ["playgame1435"],
+	"license": "MIT",
+	"icon": "assets/easyvisuals/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"ru.playgame1435.easyvisuals.EasyVisuals"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

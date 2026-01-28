@@ -1,6 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "easyvisuals",
+<<<<<<< HEAD
 	"version": "1.0.0",
 	"name": "EasyVisuals",
 	"description": "Оптимизированные визуальные эффекты",
@@ -16,6 +17,39 @@
 	"depends": {
 		"fabricloader": ">=0.16.9",
 		"minecraft": "~1.21.1",
+=======
+	"version": "${version}",
+	"name": "EasyVisuals",
+	"description": "ну какие то визуалы вроде с оптимизацией от ии",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://chat.deepseek.com/",
+		"sources": "https://chat.deepseek.com/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/easyvisuals/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ru.playgame1435.easyvisuals.EasyVisuals"
+		],
+		"client": [
+			"ru.playgame1435.easyvisuals.EasyVisualsClient"
+		]
+	},
+	"mixins": [
+		"easyvisuals.mixins.json",
+		{
+			"config": "easyvisuals.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+>>>>>>> 73ed3e1 (changed all)
 		"java": ">=21",
 		"fabric-api": "*"
 	}
